@@ -1,0 +1,86 @@
+body{
+     margin:0;
+     padding:0;
+     background-color: black;
+}
+
+.headingtext{
+    color:white;
+    text-align: center;
+    padding:1%;
+}
+
+
+
+.maincontainer{
+    height:calc(100vh - 5.2rem);
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+}
+
+.maincontainer2{
+    background-color: white;
+    height:40rem;
+    width:30rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result{
+    height: 4rem;
+    width:27.5rem;
+    font-size:xx-large;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(47, 47, 47);
+    color:white;
+}
+
+#displaybox{
+    /* background-color: red; */
+    height:4.5rem;
+    width:28rem;
+    margin:1rem;
+    border:3px solid black;
+    background-color: black;
+}
+
+.headingtext input{
+    height:4.5rem;
+    width:28rem;
+    font-size: 20rem;
+}
+
+.displaybuttons{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.numbers,.operators
+{
+    text-align: center;
+    font-weight: bolder;
+    height: 4.5rem;
+    width:4.5rem;
+    margin:1rem;
+    cursor:pointer;
+}
+
+.numbers{
+
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.numbers:hover{
+    background-color: rgb(130, 128, 128);
+}
+
+.operators{
+    background-color: rgb(41, 39, 39);
+    color:white
+}
